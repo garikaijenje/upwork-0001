@@ -7,6 +7,7 @@ html {
   -webkit-font-smoothing: auto;
   padding: 0;
   margin: 0;
+  background-image: url("./assets/img-1.jpeg");
 }
 
 .temp-trigger-modal-button {
@@ -77,6 +78,7 @@ html {
   gap: 10px;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .temp-modal-controls-item {
@@ -93,6 +95,15 @@ html {
   align-items: center;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.temp-modal-controls-item-add {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
 }
 
 .temp-modal-controls-item:hover,
@@ -142,4 +153,19 @@ html {
   background-color: green;
   border-color: green;
   color: white;
+}
+
+/* Add Background */
+
+.temp-modal-add-background {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.temp-modal-add-background span:nth-child(2) {
+  color: #3636d5;
 }

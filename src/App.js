@@ -28,13 +28,16 @@ export default function App() {
                 X
               </span>
             </div>
-            <div className=""></div>
             <div class="temp-modal-player-container">
               <img
                 src={require("./assets/img-1.jpeg")}
                 className="temp-modal-player-image"
                 alt="temp-player"
               />
+            </div>
+            <div className="temp-modal-add-background">
+              <span>+</span>
+              <span>Background</span>
             </div>
             <div className="temp-modal-controls">
               <div className="temp-modal-controls-item">
@@ -72,7 +75,7 @@ export default function App() {
                   alt="control"
                 />
               </div>
-              <div className="temp-modal-controls-item temp-active">
+              <div className="temp-modal-controls-item ">
                 <img
                   className="temp-modal-controls-item-img"
                   src={require("./assets/control-6.jpeg")}
@@ -100,12 +103,13 @@ export default function App() {
                   alt="control"
                 />
               </div>
-              <div className="temp-modal-controls-item">
+              <div className="temp-modal-controls-item temp-active">
                 <img
                   className="temp-modal-controls-item-img"
                   src={require("./assets/control-10.jpeg")}
                   alt="control"
                 />
+                <span className="temp-modal-controls-item-add">+</span>
               </div>
             </div>
             <div className="temp-modal-buttons-container">
