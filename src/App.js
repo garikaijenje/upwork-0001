@@ -31,7 +31,7 @@ export default function App() {
             <div className=""></div>
             <div class="temp-modal-player-container">
               <img
-                src="https://plchldr.co/i/500x250"
+                src={require("./assets/img-1.jpeg")}
                 className="temp-modal-player-image"
                 alt="temp-player"
               />
@@ -40,43 +40,71 @@ export default function App() {
               <div className="temp-modal-controls-item">
                 <img
                   className="temp-modal-controls-item-img"
-                  src="https://plchldr.co/i/500x250"
-                  alt="plchldr.co"
+                  src={require("./assets/control-1.jpeg")}
+                  alt="control"
                 />
               </div>
               <div className="temp-modal-controls-item">
                 <img
                   className="temp-modal-controls-item-img"
-                  src="https://plchldr.co/i/500x250"
-                  alt="plchldr.co"
+                  src={require("./assets/control-2.jpeg")}
+                  alt="control"
                 />
               </div>
               <div className="temp-modal-controls-item">
                 <img
                   className="temp-modal-controls-item-img"
-                  src="https://plchldr.co/i/500x250"
-                  alt="plchldr.co"
+                  src={require("./assets/control-3.jpeg")}
+                  alt="control"
                 />
               </div>
               <div className="temp-modal-controls-item">
                 <img
                   className="temp-modal-controls-item-img"
-                  src="https://plchldr.co/i/500x250"
-                  alt="plchldr.co"
+                  src={require("./assets/control-4.jpeg")}
+                  alt="control"
                 />
               </div>
               <div className="temp-modal-controls-item">
                 <img
                   className="temp-modal-controls-item-img"
-                  src="https://plchldr.co/i/500x250"
-                  alt="plchldr.co"
+                  src={require("./assets/control-5.jpeg")}
+                  alt="control"
+                />
+              </div>
+              <div className="temp-modal-controls-item temp-active">
+                <img
+                  className="temp-modal-controls-item-img"
+                  src={require("./assets/control-6.jpeg")}
+                  alt="control"
                 />
               </div>
               <div className="temp-modal-controls-item">
                 <img
                   className="temp-modal-controls-item-img"
-                  src="https://plchldr.co/i/500x250"
-                  alt="plchldr.co"
+                  src={require("./assets/control-7.jpeg")}
+                  alt="control"
+                />
+              </div>
+              <div className="temp-modal-controls-item">
+                <img
+                  className="temp-modal-controls-item-img"
+                  src={require("./assets/control-8.jpeg")}
+                  alt="control"
+                />
+              </div>
+              <div className="temp-modal-controls-item">
+                <img
+                  className="temp-modal-controls-item-img"
+                  src={require("./assets/control-9.jpeg")}
+                  alt="control"
+                />
+              </div>
+              <div className="temp-modal-controls-item">
+                <img
+                  className="temp-modal-controls-item-img"
+                  src={require("./assets/control-10.jpeg")}
+                  alt="control"
                 />
               </div>
             </div>
